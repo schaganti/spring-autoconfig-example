@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
-import org.springframework.core.env.Environment;
 
 import chags.shared.component.SharedComponent;
 import chags.shared.component.SharedComponentConfiguration;
@@ -23,7 +22,7 @@ public class SharedComponentAutoConfiguration {
 	@Bean
 	@ConfigurationProperties(prefix="shared-comp")
 	@ConditionalOnMissingBean(SharedComponentConfiguration.class)
-	SharedComponentConfiguration sharedComponentConfiguration(Environment env) {
+	SharedComponentConfiguration sharedComponentConfiguration() {
 		return new SharedComponentConfiguration();
 	}
 

@@ -1,4 +1,4 @@
-package chags.shared.component.annotation;
+package chags.shared.component;
 
 public class SharedComponentConfiguration {
 

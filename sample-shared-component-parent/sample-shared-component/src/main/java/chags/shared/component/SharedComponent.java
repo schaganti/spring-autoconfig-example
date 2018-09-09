@@ -1,7 +1,5 @@
 package chags.shared.component;
 
-import chags.shared.component.annotation.SharedComponentConfiguration;
-
 public class SharedComponent {
 
 	SharedComponentConfiguration config;

@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.core.env.Environment;
 
 import chags.shared.component.SharedComponent;
-import chags.shared.component.annotation.SharedComponentConfiguration;
+import chags.shared.component.SharedComponentConfiguration;
 
 @EnableConfigurationProperties
 @ConditionalOnProperty(name = { "shared-comp.url", "shared-comp.port" })

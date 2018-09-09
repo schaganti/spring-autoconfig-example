@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 import chags.shared.component.SharedComponent;
+import chags.shared.component.SharedComponentConfiguration;
 import chags.shared.component.annotation.EnableSampleSharedComponent;
-import chags.shared.component.annotation.SharedComponentConfiguration;
 
 @SpringBootApplication
 @EnableSampleSharedComponent(url="testMe", port="testMeToo")

@@ -9,6 +9,7 @@ import org.springframework.core.type.AnnotationMetadata;
 import org.springframework.util.StringValueResolver;
 
 import chags.shared.component.SharedComponent;
+import chags.shared.component.SharedComponentConfiguration;
 
 @Configuration
 public class EnableSharedComponentConfig implements ImportAware, EmbeddedValueResolverAware {
